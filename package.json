@@ -1,6 +1,6 @@
 {
   "name": "@jetbrains/stylelint-config",
-  "version": "0.0.1",
+  "version": "1.2.0",
   "description": "A stylelint config by JetBrains",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
