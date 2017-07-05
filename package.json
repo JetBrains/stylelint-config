@@ -2,9 +2,6 @@
   "name": "@jetbrains/stylelint-config",
   "version": "1.2.0",
   "description": "A stylelint config by JetBrains",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JetBrains/stylelint-config-jetbrains.git"
@@ -29,5 +26,20 @@
     "stylelint-config-css-modules": "1.0.0",
     "stylelint-config-standard": "16.0.0",
     "stylelint-order": "0.5.0"
+  },
+  "devDependencies": {
+    "ci-publish": "^1.3.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "standard-version": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release:ci": "standard-version && git push --follow-tags origin master && ci-publish"
   }
 }
