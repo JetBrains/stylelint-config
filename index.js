@@ -27,6 +27,7 @@ module.exports = {
         ignore: ['after-declaration']
       }
     ],
+    'selector-max-specificity': '0,2,0',
     'order/order': [
       'custom-properties', 
       'declarations'
