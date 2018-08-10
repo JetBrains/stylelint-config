@@ -1,6 +1,6 @@
 {
   "name": "@jetbrains/stylelint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "A stylelint config by JetBrains",
   "repository": {
     "type": "git",
