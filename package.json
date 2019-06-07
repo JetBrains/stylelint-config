@@ -28,9 +28,9 @@
     "stylelint-order": "^0.8.1"
   },
   "devDependencies": {
-    "commitizen": "^2.10.1",
+    "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
-    "standard-version": "^5.0.0"
+    "standard-version": "^6.0.1"
   },
   "config": {
     "commitizen": {
