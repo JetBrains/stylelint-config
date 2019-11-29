@@ -23,14 +23,17 @@
   },
   "homepage": "https://github.com/JetBrains/stylelint-config-jetbrains#readme",
   "dependencies": {
-    "stylelint-config-css-modules": "1.3.0",
-    "stylelint-config-standard": "18.2.0",
-    "stylelint-order": "^0.8.1"
+    "stylelint-config-css-modules": "^2.1.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^3.1.1"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^2.1.0",
-    "standard-version": "^6.0.1"
+    "cz-conventional-changelog": "^3.0.2",
+    "standard-version": "^7.0.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^11.0.0 || ^12.0.0"
   },
   "config": {
     "commitizen": {
