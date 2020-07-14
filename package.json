@@ -30,7 +30,7 @@
   "devDependencies": {
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "standard-version": "^7.0.1"
+    "standard-version": "^8.0.1"
   },
   "peerDependencies": {
     "stylelint": ">=11.0.0"
