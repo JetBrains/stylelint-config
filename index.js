@@ -3,7 +3,7 @@ const propertiesOrder = require('./properties-order.json');
 
 module.exports = {
   extends: [
-    'stylelint-config-standard', 
+    'stylelint-config-standard',
     'stylelint-config-css-modules'
     ],
   plugins: [
@@ -15,7 +15,7 @@ module.exports = {
       {
         except: ['first-nested'],
         ignore: [
-          'after-comment', 
+          'after-comment',
           'stylelint-commands'
         ]
       }
@@ -29,9 +29,15 @@ module.exports = {
     ],
     'selector-max-specificity': '0,2,0',
     'order/order': [
-      'custom-properties', 
+      'custom-properties',
       'declarations'
     ],
-    'order/properties-order': propertiesOrder
+    'order/properties-order': propertiesOrder,
+    'selector-class-pattern': null,
+    'alpha-value-notation': null,
+    'color-function-notation': null,
+    'value-keyword-case': null,
+    'declaration-block-no-redundant-longhand-properties': null,
+    'keyframes-name-pattern': null,
   }
 };
