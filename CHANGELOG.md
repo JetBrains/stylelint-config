@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v2.0.1...v3.0.0) (2021-11-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **update dependencies:** Stylelint 14 is now required
+
+### build
+
+* **update dependencies:** [publish] ([e1bf51b](https://github.com/JetBrains/stylelint-config-jetbrains/commit/e1bf51b28383c3a4a5354d0eb748cbe0daa1a992))
+
 ### [2.0.1](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v2.0.0...v2.0.1) (2020-03-12)
 
 ## [2.0.0](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v1.3.4...v2.0.0) (2019-11-29)
