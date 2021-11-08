@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v3.0.1...v3.0.2) (2021-11-08)
+
+
+### Bug Fixes
+
+* **[publish]:** disable some controversary new rules ([3b8baa2](https://github.com/JetBrains/stylelint-config-jetbrains/commit/3b8baa28a5acc6a63f977807d65c0e11d3fd4a55))
+
 ### [3.0.1](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v3.0.0...v3.0.1) (2021-11-04)
 
 ## [3.0.0](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v2.0.1...v3.0.0) (2021-11-04)
