@@ -39,5 +39,8 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-block-no-redundant-longhand-properties': null,
     'keyframes-name-pattern': null,
+    'max-line-length': null,
+    'property-no-vendor-prefix': null,
+    'value-no-vendor-prefix': null,
   }
 };
