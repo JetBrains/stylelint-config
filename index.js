@@ -28,6 +28,7 @@ module.exports = {
       }
     ],
     'selector-max-specificity': '0,2,0',
+    'import-notation': 'string',
     'order/order': [
       'custom-properties',
       'declarations'
@@ -39,7 +40,6 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-block-no-redundant-longhand-properties': null,
     'keyframes-name-pattern': null,
-    'max-line-length': null,
     'property-no-vendor-prefix': null,
     'value-no-vendor-prefix': null,
   }
