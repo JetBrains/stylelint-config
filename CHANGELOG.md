@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v3.0.2...v4.0.0) (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* **[publish]:** peer dependency to stylelint raised to >=15.0.0. Other dependencies updated:
+stylelint-config-css-modules, stylelint-config-standard, stylelint-order
+
+### Features
+
+* **[publish]:** migrate to Stylelint 15 ([2d4987b](https://github.com/JetBrains/stylelint-config-jetbrains/commit/2d4987be1a5ecb29e0dc70d116eb90ce8b5c9dd5))
+
 ### [3.0.2](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v3.0.1...v3.0.2) (2021-11-08)
 
 
