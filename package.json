@@ -24,7 +24,7 @@
   "homepage": "https://github.com/JetBrains/stylelint-config-jetbrains#readme",
   "dependencies": {
     "stylelint-config-css-modules": "^4.2.0",
-    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.2"
   },
   "devDependencies": {
