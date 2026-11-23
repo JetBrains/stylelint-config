@@ -33,7 +33,11 @@ module.exports = {
     'order/properties-order': propertiesOrder,
     'selector-class-pattern': null,
     'alpha-value-notation': null,
+    'color-function-alias-notation': null,
     'color-function-notation': null,
+    'property-no-deprecated': null,
+    'declaration-property-value-keyword-no-deprecated': null,
+    'at-rule-no-deprecated': null,
     'value-keyword-case': null,
     'declaration-block-no-redundant-longhand-properties': null,
     // CSS Modules @value constants are not valid CSS values.
