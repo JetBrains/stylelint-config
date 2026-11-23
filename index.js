@@ -2,10 +2,7 @@
 const propertiesOrder = require('./properties-order.json');
 
 module.exports = {
-  extends: [
-    'stylelint-config-standard',
-    'stylelint-config-css-modules'
-    ],
+  extends: ['stylelint-config-standard'],
   plugins: [
     'stylelint-order'
   ],
@@ -39,8 +36,81 @@ module.exports = {
     'color-function-notation': null,
     'value-keyword-case': null,
     'declaration-block-no-redundant-longhand-properties': null,
+    // CSS Modules @value constants are not valid CSS values.
+    'declaration-property-value-no-unknown': null,
     'keyframes-name-pattern': null,
     'property-no-vendor-prefix': null,
     'value-no-vendor-prefix': null,
-  }
+    // CSS Modules syntax support is inlined until stylelint-config-css-modules supports Stylelint 18.
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['export', 'import', 'global', 'local', 'external']
+      }
+    ],
+    'selector-type-no-unknown': [
+      true,
+      {
+        ignore: ['custom-elements'],
+        ignoreTypes: ['from']
+      }
+    ],
+    'property-no-unknown': [
+      true,
+      {
+        ignoreProperties: ['composes', 'compose-with'],
+        ignoreSelectors: [':export', /^:import/]
+      }
+    ],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['value']
+      }
+    ],
+    'function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: ['global']
+      }
+    ],
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: ['blockless-after-same-name-blockless', 'first-nested'],
+        ignore: ['after-comment'],
+        ignoreAtRules: ['value']
+      }
+    ]
+  },
+  overrides: [
+    {
+      files: '**/*.scss',
+      plugins: ['stylelint-scss'],
+      rules: {
+        'at-rule-no-unknown': null,
+        'scss/at-rule-no-unknown': [
+          true,
+          {
+            ignoreAtRules: ['value']
+          }
+        ],
+        'function-no-unknown': null,
+        'scss/function-no-unknown': [
+          true,
+          {
+            ignoreFunctions: ['global']
+          }
+        ],
+        'at-rule-empty-line-before': [
+          'always',
+          {
+            except: ['blockless-after-blockless', 'first-nested'],
+            ignore: ['after-comment'],
+            ignoreAtRules: ['else', 'value']
+          }
+        ]
+      }
+    }
+  ]
 };
