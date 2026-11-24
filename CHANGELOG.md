@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v4.0.2...v5.0.0) (2026-11-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* support Stylelint 18
+
+### Features
+
+* support Stylelint 18 ([8e4b22a](https://github.com/JetBrains/stylelint-config-jetbrains/commit/8e4b22a42d859665eca7128bb843a8838d5125ef))
+
+
+### Bug Fixes
+
+* keep existing lint policy with Stylelint 18 ([87999b4](https://github.com/JetBrains/stylelint-config-jetbrains/commit/87999b4707c47ed078096355c765ef6fc2313ac1))
+
 ### [4.0.2](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v4.0.1...v4.0.2) (2023-10-04)
 
 ### [4.0.1](https://github.com/JetBrains/stylelint-config-jetbrains/compare/v4.0.0...v4.0.1) (2023-02-15)
